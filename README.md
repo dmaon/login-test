@@ -47,7 +47,7 @@ Your application will be running on http://localhost:3000.
 To run the unit and integration tests, use the following command:\
 `yarn test`\
 This will execute the tests defined in the project. You can also run tests in watch mode by using:\
-`npm test --watch`
+`yarn test --watch`
 
 ### Contributing
 
