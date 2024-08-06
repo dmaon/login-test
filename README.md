@@ -69,3 +69,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - Thanks to the creators of Material-UI for providing an excellent design framework.
 - Thanks to the React community for their support and resources.
+- Dear Saber Rastikerdar, may your soul be happy and rest in peace. (creator of Vazirmatn)
