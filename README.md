@@ -49,6 +49,14 @@ To run the unit and integration tests, use the following command:\
 This will execute the tests defined in the project. You can also run tests in watch mode by using:\
 `yarn test --watch`
 
+### Routes
+
+The application uses the following routes defined with react-router-dom:
+
+- /: The home route .
+- /login: The login page where users can enter their credentials.
+- /verify-code: The OTP verification page where users can input their OTP.
+
 ### Contributing
 
 Contributions are welcome! If you have suggestions for improvements or features, please feel free to open an issue or submit a pull request.
@@ -59,5 +67,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Acknowledgments
 
-    Thanks to the creators of Material-UI for providing an excellent design framework.
-    Thanks to the React community for their support and resources.
+- Thanks to the creators of Material-UI for providing an excellent design framework.
+- Thanks to the React community for their support and resources.
