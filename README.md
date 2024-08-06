@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simple React application that implements a login form using Material Design components. The application includes a login route and a verification route for OTP (One-Time Password) authentication. The main goal of this project is to demonstrate how to write unit and integration tests using React Testing Library and Jest.
+This project is a simple React application that implements a login form using Material Design components. The application includes a login route and a verification route for OTP (One-Time Password) authentication. The main goal of this project is to demonstrate how to write unit and integration tests using React Testing Library.
 
 ## Features
 
@@ -16,7 +16,6 @@ This project is a simple React application that implements a login form using Ma
 - React
 - Material-UI
 - React Router
-- Jest
 - React Testing Library
 
 ## Getting Started
@@ -40,12 +39,25 @@ Make sure you have the following installed:
 
 ### Running the Application
 
-`yarn start`
+`yarn start`\
 Your application will be running on http://localhost:3000.
 
 ### Testing
 
 To run the unit and integration tests, use the following command:
-`yarn test`
+`yarn test`\
 This will execute the tests defined in the project. You can also run tests in watch mode by using:
-`npm test --watch`
+`npm test --watch`\
+
+### Contributing
+
+Contributions are welcome! If you have suggestions for improvements or features, please feel free to open an issue or submit a pull request.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Acknowledgments
+
+    Thanks to the creators of Material-UI for providing an excellent design framework.
+    Thanks to the React community for their support and resources.
