@@ -1,16 +1,16 @@
-import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
-import Login from "../index";
-import VerifyCode from "../../verifyCode";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React from 'react'
 
-test("renders login page with button", () => {
-  render(
-    <BrowserRouter>
-      <Login />
-    </BrowserRouter>
-  );
+import { render, screen } from '@testing-library/react'
+import Login from '../index'
+import { BrowserRouter } from 'react-router-dom'
 
-  const loginBtn = screen.getByRole("button");
-  expect(loginBtn).toBeInTheDocument();
-});
+test('renders login page with button', () => {
+	render(
+		<BrowserRouter>
+			<Login />
+		</BrowserRouter>,
+	)
+
+	const loginBtn = screen.getByRole('button')
+	expect(loginBtn).toBeInTheDocument()
+})

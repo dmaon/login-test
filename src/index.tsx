@@ -10,9 +10,8 @@ import rtlPlugin from "stylis-plugin-rtl";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ErrorPage404 from "./view/httpErrors/ErrorPage404";
+import ErrorPage404 from "./view/http-errors/ErrorPage404";
 import Login from "./view/login";
-import VerifyCode from "./view/verifyCode";
 import "./index.css";
 
 const cacheRtl = createCache({
@@ -33,10 +32,6 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
-  },
-  {
-    path: "/verify-code",
-    element: <VerifyCode />,
   },
 ]);
 
